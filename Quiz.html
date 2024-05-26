@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Training quiz</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+<form class="bigform">
+    <div class="user">
+    <h3 class="userlabel">Username</h3>
+    <input type="text" placeholder="username..." class="usertext" id="userinp">
+    </div>
+    <div class="questions" id="quest">
+        <div class="firstquest">
+            <h2 style="margin-left: 1vw;">Question 1</h2>
+            <p><input type="radio" id="opf1">Answer option 1</p>
+            <p><input type="radio" id="opf2">Answer option 2</p>
+            <p><input type="radio" id="opf3">Answer option 3</p>
+            <p><input type="radio" id="opf4">Answer option 4</p>
+    
+        </div>
+        <div class="secondquest">
+            <h2 style="margin-left: 1vw;">Question 2</h2>
+            <p><input type="radio" id="ops1">Answer option 1</p>
+            <p><input type="radio" id="ops2">Answer option 2</p>
+            <p><input type="radio" id="ops3">Answer option 3</p>
+            <p><input type="radio" id="ops4">Answer option 4</p>
+    
+        </div>
+        <div class="thirdquest">
+            <h2 style="margin-left: 1vw;">Question 3</h2>
+            <p><input type="radio" id="opt1">Answer option 1</p>
+            <p><input type="radio" id="opt2">Answer option 2</p>
+            <p><input type="radio" id="opt3">Answer option 3</p>
+            <p><input type="radio" id="opt4">Answer option 4</p>
+        </div>
+        
+    </div>
+    <input type="submit" class="submit" id="subbtn" onclick="check()">
+    
+</form>
+<script src="Quiz.js"></script>
+</body>
